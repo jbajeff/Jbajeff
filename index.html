@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Final</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="entete">
+        <h4 id="tete">JEAN BAPTTISTE <span class="mot-colore-A">Andy Jeff</span></h4>
+        <div id="menu">
+            <a href="#">Accueil</a>
+            <a href="#apropos">À Propos</a>
+            <a href="#projets-container">Projets</a>
+            <a href="#competences-container">Compétences</a>
+            <a href="#contact-form">Contact</a>
+        </div>
+        <button id="menu-toggle">☰</button>
+    </div>
+
+
+
+
+    <div id="conteneur">
+        <div>
+            <p>Je m'appelle <span class="mot-colore-B">Andy Jeff JEAN BAPTISTE</span>, Développeur web en devenir passionné par le web et le design !</p>
+            <p><a href="#projets-container" class="btn2">Mes Projets</a></p>
+        </div>
+    
+        <div>
+            <figure>
+                <img src="image3.jpg"  class="pics" alt="images developpement web" width="600" height="300">
+            </figure>
+        </div>    
+    </div>
+
+
+
+    
+
+
+    <h2 id="apropos">À Propos</h2>
+    <div id="container"> 
+        <div>
+            <p>Je m'appelle <span class="mot-colore-C">Andy Jeff JEAN BAPTTISTE</span> passionné par la création de site web moderne et interactifs<br/>
+                <br/>
+                Je suis actuellement étudiant en développement web, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS. <br/>
+                <br/>
+                J'adore transformer mes idées en projets concrets et experimenter avec les nouvelles technologies.
+            </p>
+    
+            <p><a href="CV JBA JEFF2.pdf" class="btn">Télécharger mon CV</a></p>
+        </div>
+    
+        <div><img src="image1.jpg" class="pic" alt="images developpement web" width="370" height="300"></div>
+    </div>
+
+
+
+
+    <h2 id="titre">Mes projects</h2>
+    <div id="projets-container">
+        <div class="projet">
+            <p class="projetsa">Un mini-jeu interactif en Java Script qui utilise des évenements Dom</p>
+            <p class="projetsb">#html, #css, #js</p>
+            <p><a href="monprojet" class="bn-projet">Voir</a></p>
+        </div>
+
+        <div id="projet-B">
+            <p class="projets-B">Un mini-jeu interactif en Java Script qui utilise des évenements Dom</p>
+            <p class="projetsB">#html, #css, #js</p>
+            <p><a href="monprojet" class="bn-projet-B">Voir</a></p>
+        </div>
+
+        <div class="projet">
+            <p class="projetsa">Un mini-jeu interactif en Java Script qui utilise des évenements Dom</p>
+            <p class="projetsb">#html, #css, #js</p>
+            <p><a href="monprojet" class="bn-projet">Voir</a></p>
+        </div>
+    </div>
+
+
+
+
+    <h1 id="competence-titre">Compétences</h1>
+    <div id="competences-container">
+       
+        <div class="competence">
+            <p class="competence-A">Soft Skills</p>
+            <label for="progress"> Gestion de projet :</label>
+            <progress id="file" value="80" max="100"></progress>
+
+            <label for="progress"> Résouton de problème :</label>
+            <progress id="file" value="65" max="100"></progress>
+
+
+            <label for="progress"> Adaptabilité :</label>
+            <progress id="file" value="80" max="100"></progress>
+
+        </div>
+
+        <div class="competence">
+            <p class="competence-A">Hard Skills</p>
+            <label for="progress"> HTML :</label>
+            <progress id="file" value="90" max="100"></progress>
+
+
+            <label for="progress"> CSS :</label>
+            <progress id="file" value="70" max="100"></progress>
+
+            <label for="progress"> JavaScript :</label>
+            <progress id="file" value="80" max="100"></progress>
+
+            <label for="progress"> VS Code :</label>
+            <progress id="file" value="97" max="100"></progress>
+
+        </div>
+    </div>
+
+
+
+
+    <div id="contact-form">
+        <form action="" method="post">
+            <h4 id="contact-b">Vous avez un <span class="mot-colore">projet en tête ?</span></h4>
+            <h4 id="contact-h">N'hésitez pas à me <span class="mot-colore">contacter</span></h4>
+    
+            <div class="contact-name">
+                <div>
+                    <label>Votre Prénom</label>
+                    <input type="text" name="prenom" placeholder="Jeff" required>
+                </div>
+    
+                <div >
+                    <label>Votre Nom</label>
+                    <input type="text" name="nom" placeholder="DACY" required>
+                </div>
+            </div>
+            <label>Votre sujet</label>
+            <input type="text" name="sujet" placeholder="Aide">
+            <textarea name="message" placeholder="Votre message"></textarea>
+            <button  type="submit" name="envoyermessage">Envoyer</button>
+        </form>  
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="pied">
+           <p id="auteur">Designed by JBA Jeff with HTML,CSS,JS</p>
+           <p id="copyright">&copy;Tous droits réservés - 2025</p>
+        </div>
+    </footer> 
+    
+
+
+<script src="javascript/app.js"></script>    
+</body>
+</html>
